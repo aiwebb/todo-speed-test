@@ -40,6 +40,23 @@
     display: none;
 }
 
-#tasks > li:hover .delete {
+.up {
+    margin-left: -25px;
+    position: absolute;
+    color: green;
+    display: none;
+}
+
+.down {
+    margin-left: -15px;
+    position: absolute;
+    color: blue;
+    display: none;
+}
+
+
+#tasks > li:hover .delete /*,
+#tasks > li:hover .up,
+#tasks > li:hover .down*/ {
     display: inline;
 }
